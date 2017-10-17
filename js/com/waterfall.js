@@ -58,7 +58,7 @@ define(['jquery'], function () {
          var _this=this
         
             $.ajax({
-                url: 'http://platform.sina.com.cn/slide/album_tech',
+                url: 'https://platform.sina.com.cn/slide/album_tech',
                 dataType: 'jsonp',     //预期服务器返回的数据类型    
                 jsonp: 'jsoncallback',  //在一个jsonp请求中重写回调函数的名字
                 data: {                     //发送到服务器的数据。将自动转换为请求字符串格式
